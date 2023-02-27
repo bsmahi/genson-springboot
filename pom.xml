@@ -34,6 +34,11 @@
 			<artifactId>genson</artifactId>
 			<version>${genson.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.owlike</groupId>
+			<artifactId>genson-java-datetime</artifactId>
+			<version>${genson.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

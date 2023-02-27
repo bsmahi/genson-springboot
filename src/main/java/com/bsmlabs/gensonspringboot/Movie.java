@@ -7,9 +7,9 @@ public class Movie {
 
     private String moveId;
     private String movieName;
-    private String showTime;
+    private LocalDateTime showTime;
 
-    public Movie(String moveId, String movieName, String showTime) {
+    public Movie(String moveId, String movieName, LocalDateTime showTime) {
         this.moveId = moveId;
         this.movieName = movieName;
         this.showTime = showTime;
@@ -31,11 +31,11 @@ public class Movie {
         this.movieName = movieName;
     }
 
-    public String getShowTime() {
+    public LocalDateTime getShowTime() {
         return showTime;
     }
 
-    public void setShowTime(String showTime) {
+    public void setShowTime(LocalDateTime showTime) {
         this.showTime = showTime;
     }
 

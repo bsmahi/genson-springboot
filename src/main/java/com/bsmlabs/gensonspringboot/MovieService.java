@@ -11,11 +11,11 @@ public class MovieService {
     private static final List<Movie> movieDetails = new ArrayList<>();
 
     static {
-        Movie movieOne = new Movie("M1", "The Guide", LocalDateTime.now().toString());
+        Movie movieOne = new Movie("M1", "The Guide", LocalDateTime.now());
 
-        Movie movieTwo = new Movie("M2", "Home Alone", LocalDateTime.now().plusHours(1).toString());
+        Movie movieTwo = new Movie("M2", "Home Alone", LocalDateTime.now().plusHours(1));
 
-        Movie movieThree = new Movie("M3", "Safe Haven", LocalDateTime.now().plusHours(2).toString());
+        Movie movieThree = new Movie("M3", "Safe Haven", LocalDateTime.now().plusHours(2));
 
         movieDetails.add(movieOne);
         movieDetails.add(movieTwo);
